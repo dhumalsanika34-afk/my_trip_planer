@@ -208,6 +208,9 @@
     height: 200px;
     width: 270px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 
 }
 
@@ -218,6 +221,9 @@
     height: 200px;
     width: 270px;
     border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 
 }
 
@@ -234,6 +240,9 @@
     height: 200px;
     width: 270px;
     border-radius: 20px;
+     display: flex;
+    flex-direction: column;
+    justify-content: end;
 
 }
 
@@ -244,5 +253,8 @@
     height: 200px;
     width: 270px;
     border-radius: 20px;
+     display: flex;
+    flex-direction: column;
+    justify-content: end;
 
 }
