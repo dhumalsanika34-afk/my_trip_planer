@@ -302,3 +302,14 @@ font-weight: 700;
 font-size: 20px;
 font-weight: 700;
 }
+.work_section_card{
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+.work_section_img{
+    background-color: #f7caba;
+    padding:15px;
+    border-radius: 50%;
+}
+
