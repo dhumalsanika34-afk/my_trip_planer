@@ -5,11 +5,11 @@
     justify-content: space-around;
     padding-top: 5px;
     position: fixed;
-    top:0;
-    left:0;
-    right:0;
+    top: 0;
+    left: 0;
+    right: 0;
     width: 100%;
-    background-color:rgb(0,0,0,0.55);
+    background-color: rgb(0, 0, 0, 0.55);
     z-index: 1000;
 
 }
@@ -50,35 +50,50 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-menu:hover{
+menu:hover {
     color: #e6501b;
 }
-.menu_taggle{
+
+.menu_taggle {
     display: none;
 }
-.humburgar{
+
+.humburgar {
     display: none;
     color: white;
     font-size: 30px;
     cursor: pointer;
 }
+
 @media screen and (max-width: 768px) {
+    .Main_cotainer {
+        flex-wrap: wrap;
+        padding: 10px 20px;
+    }
+
+    .humburgar {
+        display: block;
+    }
+
     .nav_menu {
         display: none;
         flex-direction: column;
+        width: 100%;
+        text-align: center;
         gap: 10px;
-        background-color: rgb(0,0,0,0.8);
-        position: absolute;
-        top: 100%;
-        right: 0;
-        width: 200px;
-        padding: 10px;
     }
-    .menu_taggle:checked + .humburgar + .nav_menu {
+
+    .menu_taggle:checked ~ .nav_menu {
         display: flex;
     }
-    .humburgar{
-        display: block;
+
+    .menu_taggle:checked ~ .humburgar {
+        font-size: 28px;
+        content: 'x';
     }
+
+    .menu {
+        font-size: 18px;
+
     
 }
