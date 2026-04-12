@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="..//css/style.css">
      <link rel="stylesheet" href="..//css/destination.css">
      <link rel="stylesheet" href="..//css/navbar.css">
+     <link rel="stylesheet" href="..//css/login.css">
+     <link rel="stylesheet" href="..//css/footer.css">
 </head>
 <body>
     <div class="Main_cotainer">
         <div class="img_container">
             <img src="..//images/logo.jpeg" alt="logo" class="logo">
-            <h1 class="name">PLAN MY <span style="color: orange;">Trip</span></h1>
+            <h1 class="name">PLAN MY <span style="color: red;">Trip</span></h1>
 
         </div>
 
@@ -26,12 +28,99 @@
         </div>
 
         <div class="nav_menu">
-            <a  href="./login.html" class="menu">login</a>
+            <a  href="./login.html" class="menu">Login</a>
             <a href="./singup.html" class="menu">Sign up</a>
         </div>
     </div>
+    </div><br><br><br><br>
+    <div class="login_wrapper">
+        <div class="login_card">
+            <div class="login_header">
+                <h2 class="destination_section_heading">Welcome Back</h2>
+                <p>Login to manage your trips and preferences.</p>
+            </div>
 
-        <h1 color="red"> login hein</h1>
+            <form action="#" class="login_form">
+                <div class="input_group">
+                    <label>Email Address</label>
+                    <div class="destination_container_items">
+                        <img src="../images/email.svg" height="18px">
+                        <input class="destination_input" type="email" placeholder="Enter your email" required />
+                    </div>
+                </div>
+
+                <div class="input_group">
+                    <label>Password</label>
+                    <div class="destination_container_items">
+                        <img src="../images/password.svg" height="18px"> <input class="destination_input" type="password" placeholder="Enter your password" required />
+                    </div>
+                </div>
+
+                <div class="login_actions">
+                    <label><input type="checkbox"> Remember me</label>
+                    <a href="#" class="forgot_pw">Forgot Password?</a>
+                </div>
+
+                <button type="submit" class="btn_search" style="width: 100%; margin-top: 20px;">Login</button>
+            </form>
+
+            <div class="login_footer">
+                <span>Don't have an account? <a href="singup.html" style="color: red; text-decoration: none; font-weight: bold;">Sign Up</a></span>
+            </div>
+        </div>
     </div>
+     <div class="footer_main_container">
+            <div class="footer_menu_container">
+
+                <div class="footer_child_item_1">
+                    <div class="img_container">
+                        <img src="..//images/logo.jpeg" alt="logo" class="logo">
+                        <h1 class="name">PLAN MY <span style="color:red;">Trip</span></h1>
+                    </div>
+                    <h4> Discover the places to visit, things to do, and local experiences to make your trip
+                        unforgettable.
+                        Enjoy a seamless travel planning exprience with our user-friends interface and personlized
+                        recommendations.</h4>
+                </div>
+
+                <div class="footer_child_item">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a class="footer_links" href="index.html">Home</a></li>
+                        <li><a class="footer_links" href="./pages/about.html">About</a></li>
+                        <li><a class="footer_links" href="./pages/destination.html">Destinations</a></li>
+                        <li><a class="footer_links" href="./pages/plan_trip.html">Plan trip</a></li>
+                        <li><a class="footer_links" href="./pages/contact.html">Contact</a></li>
+                </div>
+
+                <div class="footer_child_item">
+                    <h3>Top Destination</h3>
+                    <ul>
+                        <li><a class="footer_links" href="">Agra</a></li>
+                        <li><a class="footer_links" href="">Jaipur</a></li>
+                        <li><a class="footer_links" href="">Goa</a></li>
+                        <li><a class="footer_links" href="">Kerala</a></li>
+                        <li><a class="footer_links" href="">Rajasthan</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer_child_item">
+                    <div class="footer_img_item">
+                        <h3>Contact Us</h3>
+                        <p><a class="footer_links" href="mailto:dhumalsanika34@gmail.com" class="text-color"> <img
+                                    src="../images/email.svg" height="20px" />&nbsp;dhumalsanika34@gmail.com</a> </p>
+                    </div>
+                    <p><a href="tel:8010349834" class="footer_links"> <img src="../images/phone.svg"
+                                height="20px" />&nbsp;8010349834</a> </p>
+
+                    <p><a href="https://maps.app.goo.gl/vpnFwZfDn5m2Z5aS9" class="footer_links"><img
+                                src="../images/location.svg" height="20px" />&nbsp;Karjat, Ahilyanagar, Maharashtra,
+                            India</a></p><br>
+                </div>
+
+               
+            </div>
+
+   </div>
 </body>
 </html>
