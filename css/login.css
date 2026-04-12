@@ -1,0 +1,78 @@
+.login_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.login_card {
+    background: white;
+    width: 100%;
+    max-width: 450px;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.login_header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.login_header p {
+    color: #666;
+    font-size: 14px;
+}
+
+.input_group {
+    margin-bottom: 20px;
+}
+
+.input_group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* Reusing your destination_container_items style for consistency */
+.login_form .destination_container_items {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background: #fff;
+    width: 100% !important; /* Overriding home page width */
+}
+
+.login_actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.forgot_pw {
+    color: #666;
+    text-decoration: none;
+}
+
+.forgot_pw:hover {
+    color: red;
+}
+
+.login_footer {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+}
+
+/* Navbar active state */
+.menu.active {
+    color: red !important;
+    font-weight: bold;
+}

@@ -1,0 +1,82 @@
+.planning_wrapper {
+    padding: 60px 10%;
+    background-color: #fff;
+}
+
+.planner_container {
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Adjusting your existing destination_container for a vertical/grid flow if needed */
+.planner_container .destination_container {
+    background: #f8f8f8;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.select_input {
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.preferences_section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.sub_heading {
+    font-size: 24px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.interests_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.interest_card {
+    border: 2px solid #eee;
+    padding: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.interest_card:hover {
+    border-color: red;
+}
+
+.interest_card input {
+    margin-right: 10px;
+}
+.work_section_heading{
+    font-size: 30px;
+    font-weight:600;
+    color: black;
+}
+.work_section_description{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .planner_container .destination_container {
+        grid-template-columns: 1fr;
+    }
+}
+
+.menu.active {
+    color: red !important;
+    border-bottom: 2px solid red;
+}

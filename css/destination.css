@@ -1,38 +1,46 @@
-.Main_cotainer{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-   padding-top: 5px;
-
-}
-.logo{
-    height:80px;
-    border-radius:60px;
-    border: solid 1px black;
+.destination_page_main {
+    padding: 50px 10%;
+    text-align: center;
 }
 
-.img_container{
-display: flex;
-    flex-direction: row;
-    align-items: center;
+.destination_header {
+    margin-bottom: 40px;
 }
-.name{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 700;
-    padding-left: 10px;
-}
-.nav_menu{
-    display: flex;
-    flex-direction:row;
- gap: 30px;
-    
 
+.destinations_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
 }
-.menu{
-    text-decoration: none;
-    color: black;
-    font-weight:500;
-    font-size: 20px;
-    
+
+.destination_card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.destination_card:hover {
+    transform: translateY(-10px);
+}
+
+.card_img_wrapper img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card_desc {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+    text-align: left;
+}
+
+/* Specific styling for the Active nav link */
+.menu.active {
+    border-bottom: 2px solid red;
+    color: red !important;
 }
