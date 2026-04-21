@@ -357,4 +357,28 @@ font-weight: 700;
     }
     
 }
+@media screen and (max-width: 468px) 
+{
+   .Main_hero_section {
+        height: 100vh;
+    } 
+    .main_container {
+        margin-left: 3%;
+    }
+    .sub_content {
+        font-size: 35px;
+    }
+    .main-info {
+        width: 100%;
+        font-size: 16px;
+    }
+    .destination_container {
+        flex-direction: column;
+        width: 90%;
+        border-radius: 10px;
+
+    }
+
+
+}
 

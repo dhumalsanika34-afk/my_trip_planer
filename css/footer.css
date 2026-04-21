@@ -37,7 +37,7 @@
    
    
 }
-@media screen and(max_width:768px) {
+@media screen and(max-width:768px) {
  .footer_main_container{
     height: auto;
 
@@ -54,5 +54,16 @@
  .footer_child_item_1{
     width: 100%;
 
+ }
+}
+@media screen and (max-width: 468px) {
+    .footer_main_container{
+    height: auto;
+
+ }
+ .footer_menu_container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 25px;
  }
 }

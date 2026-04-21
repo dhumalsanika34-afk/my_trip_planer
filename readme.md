@@ -4,16 +4,16 @@
 
 🔗 **Live Demo:** [mytripplane.netlify.app](https://mytripplane.netlify.app/)
 **Output**
-![this is image](trip1.png)
-![this is image](trip2.png)
-![this is image](trip3.png)
-![this is image](trip4.png)
-![this is image](trip5.png)
-![this is image](trip6.png)
-![this is image](trip7.png)
-![this is image](trip8.png)
-![this is image](trip9.png)
-![this is image](trip10.png)
+![Description of Image](images/trip1.png)
+![Description of Image](images/trip2.png)
+![Description of Image](images/trip3.png)
+![Description of Image](images/trip4.png)
+![Description of Image](images/trip5.png)
+![Description of Image](images/trip6.png)
+![Description of Image](images/trip7.png)
+![Description of Image](images/trip8.png)
+![Description of Image](images/trip9.png)
+![Description of Image](images/trip10.png)
 
 ## 🚀 Features
 
